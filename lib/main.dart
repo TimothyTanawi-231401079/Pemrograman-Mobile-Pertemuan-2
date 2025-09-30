@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pertemuan2/screens/signin_screen.dart';
+import 'package:pertemuan2/screens/home_screen.dart';
+//import 'package:pertemuan2/screens/signup_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         fontFamily: "Urbanist",
       ),
-      home: const SignInScreen(),
+      home: const HomeScreen(),
       debugShowCheckedModeBanner: false, //untuk hilangkan pita di pojok kanan atas
     );
   }
