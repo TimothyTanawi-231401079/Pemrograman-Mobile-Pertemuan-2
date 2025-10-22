@@ -1,8 +1,10 @@
+import 'dart:nativewrappers/_internal/vm/bin/vmservice_io.dart';
+
 import 'package:pertemuan2/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
 
 class DetailScreen extends StatelessWidget {
-  final String id;
+  final String animeId;
   final String title;
   final String imagePath;
   final String genre;
@@ -13,7 +15,7 @@ class DetailScreen extends StatelessWidget {
   const DetailScreen({
     super.key,
     // Menggunakan data dummy untuk sementara sebagai demo
-    this.id = '1',
+    this.animeId = '1',
     this.title = 'Black Clover',
     this.imagePath = 'assets/images/black_clover.jpg',
     this.genre = 'Action, Adventure, Fantasy',
@@ -55,6 +57,7 @@ class DetailScreen extends StatelessWidget {
                 icon: const Icon(Icons.arrow_back, color: Colors.white),
                 onPressed: () {
                   Navigator.of(context).pop();
+                  //Navigator.push(context, MaterialPageRoute());
                 },
               ),
             ),

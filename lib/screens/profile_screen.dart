@@ -1,3 +1,5 @@
+import 'package:go_router/go_router.dart';
+import 'package:pertemuan2/config/routes.dart';
 import 'package:pertemuan2/widgets/app_scaffold.dart';
 import 'package:pertemuan2/widgets/profile_button.dart';
 import 'package:flutter/material.dart';
@@ -188,7 +190,7 @@ class ProfileScreen extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: screenWidth * 0.02),
               child: ElevatedButton.icon(
                 onPressed: () {
-                  // TODO: Implement logout functionality
+                  context.go(AppRoutes.signIn); //pergi, ga bisa kembali
                 },
                 icon: Icon(
                   Icons.logout,

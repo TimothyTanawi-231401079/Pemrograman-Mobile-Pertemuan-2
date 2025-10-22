@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pertemuan2/screens/favorite_screen.dart';
+import 'package:pertemuan2/config/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'AnimeVerse',
       theme: ThemeData(
         // This is the theme of your application.
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         fontFamily: "Urbanist",
       ),
-      home: const FavoriteScreen(),
+      routerConfig: createRouter(),  //Tiap ganti hancurkan dan bangun
       debugShowCheckedModeBanner: false, //untuk hilangkan pita di pojok kanan atas
     );
   }
