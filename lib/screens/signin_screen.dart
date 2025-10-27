@@ -281,19 +281,3 @@ class SignInScreen extends StatelessWidget {
   }
 }
 
-// import 'package:flutter/material.dart';
-// import 'package:pertemuan2/widgets/app_scaffold.dart';
-//
-// class SignInScreen extends StatelessWidget{
-//   const SignInScreen({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return AppScaffold(
-//         body: Center(
-//           child: Text('Sign In Screen',
-//               style: TextStyle(color: Colors.white)),
-//         )
-//       );
-//   }
-// }

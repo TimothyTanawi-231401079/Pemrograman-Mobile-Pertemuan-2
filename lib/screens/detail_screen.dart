@@ -8,26 +8,10 @@ import '../provider/app_state_provider.dart';
 
 class DetailScreen extends StatelessWidget {
   final String animeId;
-  // final String title;
-  // final String imagePath;
-  // final String genre;
-  // final String rating;
-  // final String totalEpisodes;
-  // final String description;
 
   const DetailScreen({
     super.key,
     required this.animeId
-    // Menggunakan data dummy untuk sementara sebagai demo
-  //   this.animeId = '1',
-  //   this.title = 'Black Clover',
-  //   this.imagePath = 'assets/images/black_clover.jpg',
-  //   this.genre = 'Action, Adventure, Fantasy',
-  //   this.rating = '8.14',
-  //   this.totalEpisodes = '170',
-  //   this.description =
-  //   "Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the 'Wizard King'—a title given to the strongest mage in the kingdom—and promised that they would compete against each other for the position of the next Wizard King. However, as they grew up, the stark difference between them became evident. While Yuno is able to wield magic with amazing power and control, Asta cannot use magic at all and desperately tries to awaken his powers by training physically. When they reach the age of 15, Yuno is bestowed a spectacular Grimoire with a four-leaf clover, while Asta receives nothing. However, soon after, Yuno is attacked by a person named Lebuty, whose main purpose is to obtain Yuno's Grimoire. Asta tries to fight Lebuty, but he is outmatched. Though without hope and on the brink of defeat, he finds the strength to continue when he hears Yuno's voice. Unleashing his inner emotions in a rage, Asta receives a five-leaf clover Grimoire, a 'Black Clover' giving him enough power to defeat Lebuty. A few days later, the two friends head out into the world, both seeking the same goal—to become the Wizard King! [Written by MAL Rewrite]",
-  //
   });
 
   @override
@@ -110,7 +94,6 @@ class DetailScreen extends StatelessWidget {
                 icon: const Icon(Icons.arrow_back, color: Colors.white),
                 onPressed: () {
                   Navigator.of(context).pop();
-                  //Navigator.push(context, MaterialPageRoute());
                 },
               ),
             ),
