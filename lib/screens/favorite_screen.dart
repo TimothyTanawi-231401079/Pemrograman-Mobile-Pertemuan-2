@@ -1,6 +1,5 @@
 import 'package:pertemuan2/provider/app_state_provider.dart';
 import 'package:pertemuan2/widgets/app_scaffold.dart';
-import 'package:pertemuan2/data/dummy_data.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
