@@ -27,7 +27,7 @@ class Anime {
     this.ageRating,
   });
 
-
+//		27.0.12077973	Installed
   factory Anime.fromJson(Map<String, dynamic> json) {
     List<String> genreList = [];
     if (json['genres'] != null) {
