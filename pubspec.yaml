@@ -98,7 +98,7 @@ flutter:
            weight: 600
          - asset: assets/fonts/Urbanist-Bold.ttf
            weight: 700
-         - asset: assets/fonts/Urbanist-Extrabold.ttf
+         - asset: assets/fonts/Urbanist-ExtraBold.ttf
            weight: 800
 
 # App Icon Configuration
